@@ -1,26 +1,26 @@
 # Requirements
  ## Discription
- ### Milk management  system is a utility that works as simple record for the rural milk dairies. It helps them to keep record of the amount of milk that has come in and the total cost of the milk.
+ ### Milk management  system is a utility that works as simple record for the rural milkmen. It helps them to keep record of the amount of milk that has sold by them and the total cost of the milk.
 
 ## High level requirements
 | ID   |                        Discription                       |
 |:----:|:--------------------------------------------------------:|
-| HL01 | Calculate total amount of milk lent by dairy farmer      |
-| HL02 | Calculate total cost of milk lent by dairy farmer        |
-| HL03 | Calculate total Amount of milk collected in Dairy        |
-| HL04 | Calculate Total cost of milk that is collected in Dairy  |  
+| HL01 | Input amount of milk sold by dairy farmer                |
+| HL02 | Calculate total cost of milk sold by dairy farmer        |
+| HL03 | Calculate total Amount of at the Milk sold so far        |
+| HL04 | Calculate Total cost of milk sold so far                 |  
 
 ## Low level requirements 
 |    ID     |                      Discription                            |
 |:---------:|:-----------------------------------------------------------:|
-| LL01_HL01 | Calculate total amount of Buffelo's milk                    |
-| LL02_HL01 | Calculate total amount of Cow's milk                        |
+| LL01_HL01 | Input amount of Buffelo's milk                    |
+| LL02_HL01 | Input amount of Cow's milk                        |
 | LL03_HL02 | Calculate total cost of Buffelo's milk                      |
 | LL04_HL02 | Calculate total cost of Cow's milk                          |
-| LL05_HL03 | Calculate total amount of Buffelo's milk collected at Dairy |
-| LL06_HL03 | Calculate total amount of Cow's milk collected at Dairy     |
-| LL07_HL04 | Calculate total cost of Buffelo's milk collected at Dairy   |
-| LL08_HL04 | Calculate total cost of Cow's milk collected at Dairy       |
+| LL05_HL03 | Calculate total amount of Buffelo's milk sold so far        |
+| LL06_HL03 | Calculate total amount of Cow's milk sold so far            |
+| LL07_HL04 | Calculate total cost of Buffelo's milk sold so far          |
+| LL08_HL04 | Calculate total cost of Cow's milk sold so far              |
 | LL09_HL04 | Calculate Total COst                                        |
 
 
