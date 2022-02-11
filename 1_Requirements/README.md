@@ -6,22 +6,18 @@
 | ID   |                        Discription                       |
 |:----:|:--------------------------------------------------------:|
 | HL01 | Input amount of milk sold by Milkman                     |
-| HL02 | Calculate total cost of milk sold by Milkman             |
-| HL03 | Calculate total Amount of at the Milk sold so far        |
-| HL04 | Calculate Total cost of milk sold so far                 |  
+| HL02 | Calculate total Amount of the Milk sold so far           |
+| HL03 | Calculate total cost of milk sold by Milkman             |  
 
 ## Low level requirements 
 |    ID     |                      Discription                            |
 |:---------:|:-----------------------------------------------------------:|
 | LL01_HL01 | Input amount of Buffelo's milk                    |
 | LL02_HL01 | Input amount of Cow's milk                        |
-| LL03_HL02 | Calculate total cost of Buffelo's milk                      |
-| LL04_HL02 | Calculate total cost of Cow's milk                          |
-| LL05_HL03 | Calculate total amount of Buffelo's milk sold so far        |
-| LL06_HL03 | Calculate total amount of Cow's milk sold so far            |
-| LL07_HL04 | Calculate total cost of Buffelo's milk sold so far          |
-| LL08_HL04 | Calculate total cost of Cow's milk sold so far              |
-| LL09_HL04 | Calculate Total COst                                        |
+| LL04_HL02 | Calculate total amount of milk sold so far                  |
+| LL05_HL03 | Calculate total cost of Buffelo's milk                      |
+| LL06_HL03 | Calculate total cost of Cow's milk                          |
+| LL07_HL03 | Calculate Total COst                                        |
 
 
 # SWOT analysis
