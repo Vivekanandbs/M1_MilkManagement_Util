@@ -1,10 +1,22 @@
-#Target : Dependencies 
+PROJ_NAME = Milk_management 
+SRC = src/Milk_manage_main.c src/Milk_management.c src/test_Milk_management.c src/unity.c
+ifdef OS
+	RM = del /q
+	FixPath= $(subst /,\,$l)
+	EXEC=exe 
+else
+	ifeq ($(shell uname), Linux)
+		RM = rm -rf
+		FixPath = $Linux
+		EXEC = out
+	endif
+endif	
 
-Build : Milk_manage_main.c Milk_management.c
-	gcc Milk_manage_main.c Milk_management.c -o Milk_management.out
+Build :$(SRC)
+	gcc $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 
 Run : Build
-	./Milk_management.out
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 Clean :
-	rm -rf *.o *.out *.i *.s
+	$(RM) $(call FixPath,$(BUILD_DIR)/*.out)
