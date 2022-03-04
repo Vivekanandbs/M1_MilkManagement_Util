@@ -1,5 +1,5 @@
 # Architecture
 
-## Structural Diagram 
+ Structural Diagram 
 
-## Behavioural Diagram
+ Behavioural Diagram
